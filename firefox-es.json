@@ -31,7 +31,7 @@
             "64bit": {
                 "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=$language#/firefox.7z",
                 "hash": {
-                    "find": "([a-fA-F0-9]{64})\\s+(?:win64/es-ES/Firefox Setup ([\\d.]+).exe)",
+                    "find": "([a-fA-F0-9]{64})\\s+(?:win64/$language/Firefox Setup ([\\d.]+).exe)",
                     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
                 }
             },
