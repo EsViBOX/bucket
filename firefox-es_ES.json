@@ -5,11 +5,11 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=es-ES#/firefox.7z",
+            "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win64&lang=es-ES#/firefox.7z",
             "hash": "0e4658007400945299333ef60131f43f5821e2a147f748de5c9386a18c6ed740"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win&lang=es-ES#/firefox.7z",
+            "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win&lang=es-ES#/firefox.7z",
             "hash": "2ec56a2ba611353abc09c497cf6c4551782078a987cc340b4fe0036b161029df"
         }
     },
@@ -28,17 +28,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=es-ES#/firefox.7z",
+                "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win64&lang=es-ES#/firefox.7z",
                 "hash": {
                     "find": "([a-fA-F0-9]{64})\\s+(?:win64/es-ES/Firefox Setup ([\\d.]+).exe)",
-                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.1/SHA256SUMS"
                 }
             },
             "32bit": {
-                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win&lang=es-ES#/firefox.7z",
+                "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win&lang=es-ES#/firefox.7z",
                 "hash": {
                     "find": "([a-fA-F0-9]{64})\\s+(?:win32/es-ES/Firefox Setup ([\\d.]+).exe)",
-                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.1/SHA256SUMS"
                 }
             }
         }
