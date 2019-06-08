@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win64&lang=es-ES#/firefox.7z",
-            "hash": "0e4658007400945299333ef60131f43f5821e2a147f748de5c9386a18c6ed740"
+            "hash": "f6acabfbc16292ff93057244514c116e9c40d8224ff8940054502ba657e0ccf1"
         },
         "32bit": {
             "url": "https://download.mozilla.org/?product=firefox-67.0.1-SSL&os=win&lang=es-ES#/firefox.7z",
