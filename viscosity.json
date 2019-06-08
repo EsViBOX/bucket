@@ -12,17 +12,8 @@
             "hash": "57c492a0a282fb0c782abb8f8dedf232fdfe4297c82aa13cdc836fd62f5e6cdd"
         }
     },
-    "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
-        ]
-    },
-    "uninstaller": {
-        "file": "Uninstall.exe",
-        "args": "/S"
-    },
     "bin": "Viscosity.exe",
+    "innosetup": true,
     "checkver": "Download Viscosity ([\\d.]+)",
     "autoupdate": {
         "architecture": {
